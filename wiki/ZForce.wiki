@@ -16,7 +16,7 @@ Z-Force is a radio modem that can intercept and inject raw Z-Wave frames includi
 
 Setting up Z-Force hardware is straightforward: upload the RX and TX firmwares to receiver and transmitter CC1110 boards using Texas Instruments [http://www.ti.com/tool/flash-programmer SmartRF Flash Programmer] and connect them to your PC or laptop via USB to UART bridge. The following pictures show the required USB-UART bridge connections to CC1110 I/O connector pins:
 
-<p align="center">[http://drive.google.com/uc?export=view&id=0B8l07E7STihRM3VyRmx2YTdrMFU&nonsesnse=something.png]<br>_Connections to CC1110 I/O pins_
+<p align="center">[http://drive.google.com/uc?export=view&id=0B8l07E7STihRM3VyRmx2YTdrMFU&nonsesnse=something.png]<br>_Connections to CC1110 I/O pins_<br><font color="red">_*Please note External Power in the above picture is +3.3V and not +5V!</font>
 
 After configuring the virtual COM port numbers associated with the receiver and transmitter boards in the GUI program, the kit is ready to intercept and send Z-Wave packets.
 
